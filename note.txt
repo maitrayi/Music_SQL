@@ -1,0 +1,10 @@
+*/ Q1 - Who is the senior most employee based on job title?
+
+	select first_name, last_name 
+	from employee 
+	order by levels desc
+	limit 1;
+	
+ Q2 - Which countries have the most Invoice?
+ Q3 - What are top 3 values of total Invoice?
+ Q4 - Which city has the  best customers? We would like to throw a promotional Music Festival in the city we made the mo
